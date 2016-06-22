@@ -1,5 +1,5 @@
 <?php
-include_once 'modeloConexion.php';
+require 'modeloConexion.php';
 
 class ModeloUsuario{
 
