@@ -5,7 +5,7 @@ class Conexion_Model {
 
     public static function getConexion() {
     
-        $conexion = @mysql_connect("localhost","root","") or die("Conexion Fallida");
+        $conexion = @mysql_connect("diego9309.database.windows.net","diego","17907660*+24D") or die("Conexion Fallida");
 	@mysql_select_db("procesos",$conexion)or die("Error cargando la base de datos");    
         return $conexion;
     }
